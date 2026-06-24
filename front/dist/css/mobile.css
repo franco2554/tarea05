@@ -1,0 +1,41 @@
+/* movil */
+@media (max-width: 767px){
+
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .texto-portada h1{
+        font-size: 36px;
+    }
+
+    .seccion{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .texto{
+        width: 85%;
+    }
+
+    .imagenes{
+        width: 85%;
+    }
+
+    footer input{
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px){
+    .carta{
+        width: 88%;
+    }
+}
